@@ -12,6 +12,7 @@ except ImportError:  # Python 3.9+
     from math import gcd
 from ctypes import create_string_buffer
 
+buffer = memoryview
 
 class error(Exception):
     pass
